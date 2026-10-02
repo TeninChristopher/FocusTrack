@@ -1,0 +1,25 @@
+{
+  "updated_at": "2026-08-17T09:14:02.000Z",
+  "students": [
+    { "id": "ID01", "track_id": 1, "attention_score": 94, "attention_status": "Highly Attentive", "posture": "Looking Forward", "bbox": [40, 40, 160, 160] },
+    { "id": "ID02", "track_id": 2, "attention_score": 82, "attention_status": "Partially Attentive", "posture": "Looking Left", "bbox": [200, 45, 320, 165] },
+    { "id": "ID03", "track_id": 3, "attention_score": 46, "attention_status": "Distracted", "posture": "Eyes Closed", "bbox": [360, 50, 480, 170] },
+    { "id": "ID04", "track_id": 4, "attention_score": 88, "attention_status": "Highly Attentive", "posture": "Looking Forward", "bbox": [500, 40, 620, 160] },
+    { "id": "ID05", "track_id": 5, "attention_score": 91, "attention_status": "Highly Attentive", "posture": "Looking Forward", "bbox": [60, 220, 180, 340] },
+    { "id": "ID06", "track_id": 6, "attention_score": 63, "attention_status": "Partially Attentive", "posture": "Looking Down", "bbox": [220, 225, 340, 345] },
+    { "id": "ID07", "track_id": 7, "attention_score": 92, "attention_status": "Highly Attentive", "posture": "Looking Forward", "bbox": [380, 220, 500, 340] },
+    { "id": "ID08", "track_id": 8, "attention_score": 91, "attention_status": "Highly Attentive", "posture": "Looking Forward", "bbox": [520, 225, 640, 345] }
+  ],
+  "stats": {
+    "studentsDetected": 8,
+    "averageAttention": 81,
+    "distractedStudents": 1,
+    "systemStatus": "Online"
+  },
+  "device": {
+    "esp32cam": "Online",
+    "backend": "Running",
+    "firebase": "Not Configured",
+    "lastUpload": "2026-08-17T09:14:02.000Z"
+  }
+}

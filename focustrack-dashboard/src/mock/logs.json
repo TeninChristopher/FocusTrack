@@ -1,0 +1,48 @@
+[
+  {
+    "id": "log_a1b2c3",
+    "time": "10:21",
+    "timestamp": "2026-08-17T10:21:00.000Z",
+    "studentId": "ID07",
+    "type": "Attention Drop",
+    "from": 91,
+    "to": 46,
+    "reason": "Looking Away"
+  },
+  {
+    "id": "log_d4e5f6",
+    "time": "10:32",
+    "timestamp": "2026-08-17T10:32:00.000Z",
+    "studentId": "ID12",
+    "type": "Eyes Closed",
+    "duration": "8 sec"
+  },
+  {
+    "id": "log_g7h8i9",
+    "time": "10:47",
+    "timestamp": "2026-08-17T10:47:00.000Z",
+    "studentId": "ID03",
+    "type": "Attention Drop",
+    "from": 85,
+    "to": 51,
+    "reason": "Looking Down"
+  },
+  {
+    "id": "log_j1k2l3",
+    "time": "11:05",
+    "timestamp": "2026-08-17T11:05:00.000Z",
+    "studentId": "ID10",
+    "type": "Eyes Closed",
+    "duration": "14 sec"
+  },
+  {
+    "id": "log_m4n5o6",
+    "time": "11:18",
+    "timestamp": "2026-08-17T11:18:00.000Z",
+    "studentId": "ID09",
+    "type": "Attention Drop",
+    "from": 77,
+    "to": 39,
+    "reason": "Looking Right"
+  }
+]

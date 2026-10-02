@@ -1,0 +1,17 @@
+{
+  "dailyTrend": [
+    { "date": "Monday", "attention": 84 },
+    { "date": "Tuesday", "attention": 88 },
+    { "date": "Wednesday", "attention": 79 },
+    { "date": "Thursday", "attention": 91 },
+    { "date": "Friday", "attention": 86 }
+  ],
+  "periodWise": [
+    { "period": "8-9 AM", "attention": 91 },
+    { "period": "9-10 AM", "attention": 84 },
+    { "period": "10-11 AM", "attention": 73 },
+    { "period": "11-12 PM", "attention": 89 },
+    { "period": "12-1 PM", "attention": 68 },
+    { "period": "1-2 PM", "attention": 77 }
+  ]
+}

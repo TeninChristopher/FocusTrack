@@ -1,0 +1,26 @@
+[
+  {
+    "id": "session_2026_07_27",
+    "date": "2026-07-27",
+    "video_file": "session_2026_07_27.mp4",
+    "frame_count": 15600,
+    "started_at": "2026-07-27T08:00:00.000Z",
+    "updated_at": "2026-07-27T14:00:00.000Z"
+  },
+  {
+    "id": "session_2026_07_26",
+    "date": "2026-07-26",
+    "video_file": "session_2026_07_26.mp4",
+    "frame_count": 14400,
+    "started_at": "2026-07-26T08:00:00.000Z",
+    "updated_at": "2026-07-26T13:48:00.000Z"
+  },
+  {
+    "id": "session_2026_07_25",
+    "date": "2026-07-25",
+    "video_file": "session_2026_07_25.mp4",
+    "frame_count": 16500,
+    "started_at": "2026-07-25T08:00:00.000Z",
+    "updated_at": "2026-07-25T14:15:00.000Z"
+  }
+]

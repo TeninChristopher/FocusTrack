@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+/* FocusTrack design tokens. Manrope for UI text, JetBrains Mono for
+   anything measured (IDs, percentages, timestamps) -- separates "readout"
+   data from interface chrome, matching Grafana/Datadog-style monitoring UIs. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-200: #bfdbfe;
+  --color-brand-400: #60a5fa;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
+
+  --color-success-500: #22c55e;
+  --color-success-600: #16a34a;
+  --color-warning-500: #f59e0b;
+  --color-warning-600: #d97706;
+  --color-danger-500: #ef4444;
+  --color-danger-600: #dc2626;
+}
+
+@layer base {
+  html { font-family: var(--font-sans); }
+
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-[#0b1220] dark:text-slate-100;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  ::selection { @apply bg-brand-200 text-brand-700; }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  .font-data { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+  .card-surface {
+    @apply rounded-2xl border border-slate-200/70 bg-white shadow-sm shadow-slate-900/[0.03] dark:border-slate-800 dark:bg-[#111a2c];
+  }
+
+  .scrollbar-thin { scrollbar-width: thin; scrollbar-color: #cbd5e1 transparent; }
+  .dark .scrollbar-thin { scrollbar-color: #334155 transparent; }
+}
